@@ -2,7 +2,7 @@ import sys
 import re
 from fileIO import fileIn, fileOut
 from tokenizer import FlProc, Token
-from symTbl import Table #NOT SURE IF IT IS NECESSARY TO ALSO IMPORT SYMBOL (TO FIND OUT)
+from symTbl import Table
 
 
 class Compiler(object):
